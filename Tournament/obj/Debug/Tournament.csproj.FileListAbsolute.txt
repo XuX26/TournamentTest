@@ -1,0 +1,11 @@
+C:\Users\Ulysse\source\repos\Tournament\Tournament\obj\Debug\Tournament.csprojAssemblyReference.cache
+C:\Users\Ulysse\source\repos\Tournament\Tournament\obj\Debug\Tournament.csproj.CoreCompileInputs.cache
+C:\Users\Ulysse\source\repos\Tournament\Tournament\bin\Debug\Tournament.exe.config
+C:\Users\Ulysse\source\repos\Tournament\Tournament\bin\Debug\Tournament.exe
+C:\Users\Ulysse\source\repos\Tournament\Tournament\bin\Debug\Tournament.pdb
+C:\Users\Ulysse\source\repos\Tournament\Tournament\bin\Debug\nunit.framework.dll
+C:\Users\Ulysse\source\repos\Tournament\Tournament\bin\Debug\nunit.framework.pdb
+C:\Users\Ulysse\source\repos\Tournament\Tournament\bin\Debug\nunit.framework.xml
+C:\Users\Ulysse\source\repos\Tournament\Tournament\obj\Debug\Tournament.csproj.CopyComplete
+C:\Users\Ulysse\source\repos\Tournament\Tournament\obj\Debug\Tournament.exe
+C:\Users\Ulysse\source\repos\Tournament\Tournament\obj\Debug\Tournament.pdb
