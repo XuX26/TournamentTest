@@ -9,3 +9,14 @@ C:\Users\Ulysse\source\repos\Tournament\Tournament\bin\Debug\nunit.framework.xml
 C:\Users\Ulysse\source\repos\Tournament\Tournament\obj\Debug\Tournament.csproj.CopyComplete
 C:\Users\Ulysse\source\repos\Tournament\Tournament\obj\Debug\Tournament.exe
 C:\Users\Ulysse\source\repos\Tournament\Tournament\obj\Debug\Tournament.pdb
+C:\Work files\TournamentTest\TournamentTest\Tournament\bin\Debug\Tournament.exe.config
+C:\Work files\TournamentTest\TournamentTest\Tournament\bin\Debug\Tournament.exe
+C:\Work files\TournamentTest\TournamentTest\Tournament\bin\Debug\Tournament.pdb
+C:\Work files\TournamentTest\TournamentTest\Tournament\bin\Debug\nunit.framework.dll
+C:\Work files\TournamentTest\TournamentTest\Tournament\bin\Debug\nunit.framework.pdb
+C:\Work files\TournamentTest\TournamentTest\Tournament\bin\Debug\nunit.framework.xml
+C:\Work files\TournamentTest\TournamentTest\Tournament\obj\Debug\Tournament.csprojAssemblyReference.cache
+C:\Work files\TournamentTest\TournamentTest\Tournament\obj\Debug\Tournament.csproj.CoreCompileInputs.cache
+C:\Work files\TournamentTest\TournamentTest\Tournament\obj\Debug\Tournament.csproj.CopyComplete
+C:\Work files\TournamentTest\TournamentTest\Tournament\obj\Debug\Tournament.exe
+C:\Work files\TournamentTest\TournamentTest\Tournament\obj\Debug\Tournament.pdb

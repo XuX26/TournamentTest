@@ -39,8 +39,7 @@ namespace Tournament
         public void Attack(Warrior target)
         {
             int finalDamage = 0;
-            if (MainHandItem.NbUsed == 0 || MainHandItem.MissEveryNb == 0 ||
-                MainHandItem.NbUsed % (MainHandItem.MissEveryNb) != 0)
+            if (CanBeUsed(MainHandItem))
             {
                 if (target.OffHandItem == null) //don't have shield
                 {
@@ -48,17 +47,17 @@ namespace Tournament
                 }
                 else if (target.OffHandItem != null)
                 {
-                    if (target.OffHandItem.NbUsed % (target.OffHandItem.MissEveryNb) != 0 || target.OffHandItem.MissEveryNb == 0)
-                    {
-                            finalDamage += MainHandItem.Damage;
-                    }
-
-                    else
+                    if (CanBeUsed(target.OffHandItem))
                     {
                         if (MainHandItem.GetType() == typeof(Axe))
                         {
                             target.OffHandItem.Durability--;
                         }
+                    }
+
+                    else
+                    {
+                        finalDamage += MainHandItem.Damage;
                     }
 
                     target.OffHandItem.NbUsed++;
@@ -82,14 +81,7 @@ namespace Tournament
                     }
                 }
 
-                if (target.WearedArmor != null)
-                {
-                    finalDamage -= target.WearedArmor.reducingTakenDamage;
-                }
-                if (WearedArmor != null)
-                {
-                    finalDamage -= WearedArmor.reducingDealingDamage;
-                }
+                finalDamage -= ArmorReducingDamage(target.WearedArmor);
 
                 if (finalDamage > 0)
                 {
@@ -108,9 +100,19 @@ namespace Tournament
             return (item.MissEveryNb == 0 || item.NbUsed % (item.MissEveryNb) != 0);
         }
 
-        public void Defend()
+        private int ArmorReducingDamage(Armor enemyArmor)
         {
+            int reducingDamage = 0;
+            if (enemyArmor != null)
+            {
+                reducingDamage += enemyArmor.reducingTakenDamage;
+            }
+            if (WearedArmor != null)
+            {
+                reducingDamage += WearedArmor.reducingDealingDamage;
+            }
 
+            return reducingDamage;
         }
 
 

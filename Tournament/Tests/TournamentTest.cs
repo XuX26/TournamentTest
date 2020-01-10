@@ -98,5 +98,6 @@ namespace Tournament.Tests
             Assert.AreEqual(1, swordsman.HitPoints());
             Assert.AreEqual(0, highlander.HitPoints());
         }
+
     }
 }

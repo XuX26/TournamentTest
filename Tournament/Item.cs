@@ -10,7 +10,7 @@
         {
             NbHandRequire = 0;
             MissEveryNb = 0;
-            NbUsed = 0;
+            NbUsed = 1;
         }
     }
 }
